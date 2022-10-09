@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* site colors */
+
+.vivid_sky_blue {
+  color: #1DCDFE;
+}
+.caribbean_green {
+  color: #21d0b2;
+}
+.sea_green_crayola {
+  color: #34f5c5;
+}
+.charcoal {
+  color: #2f455c;
+}
+
+.App {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  
+}
+
+.header{
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1_container{
+  border-top-style: solid ;
+  border-bottom-style: solid ;
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+  border-bottom-color:#34F5C5;
+  border-top-color:#34F5C5;
+}
+
+.chart-container{
+  max-width: 2000px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container div:first-child{
+  background-color: #2f455c;
+  border-radius: 10;
+
+}
+
+.container div h1{
+  font-weight: 1000;
+  font-style: italic;
+  text-align: center;
+  
+}
+.container div h2{
+  font-weight: 300;
+}
+.container div h3{
+  font-weight: 300;
+  font-style: italic;
+}
+
+.container div h4{
+  font-weight: 300;
+  font-style: italic;
+}
+
+.container div h3 a{
+  font-weight: 300;
+  font-style: italic;
+  color: #34f5c5;
+}
+
+.container div h3 a:hover{
+  font-weight: 400;
+  font-style: italic;
+  color: #1DCDFE;
+}
+
+@media screen and (min-width: 1440px) {
+  .container div h1{
+    font-size: 100px;
+  }
+  .container div h4{
+    display:none
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container div h1{
+    font-size: 75px;
+  }
+  .container div h4{
+    display:none
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container div h1{
+    font-size: 60px;
+  }
+  .container div h4{
+    display:none
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container div h3{
+    display: none
+  }
+  .container div h2{
+    display: none
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container div h1{
+    font-size: 28px;
+  }
+  .container div h4{
+    display:none
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container div h1{
+    font-size: 20px;
+  }
+  .container div h4{
+    display:none
+  }
+}
